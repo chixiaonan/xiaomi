@@ -1,0 +1,160 @@
+body{
+    background-color: #f2f2f2;
+}
+#box{
+    background: #ffffff;
+    height: 426px;
+    width: 390px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+/* 头部 */
+#header{
+    width: 390px;
+    height: 46px;
+    background: #f7faf9;
+    line-height: 46px;
+}
+.left_kuail{
+    float: left;
+    height: 22px;
+    width: 5px;
+    background-color: #69a88f;
+    margin-right: 16px;
+    margin-top: 12px;
+}
+.left_kuair{
+    float: left;
+    color: #69a88f;
+    font-size: 18px;
+    font-weight: 900;
+}
+.right_kuaij {
+    float: right;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+.right_kuaij a{
+    display: block;
+    height: 15px;
+    width: 15px;
+    background:url(../images/index.png) no-repeat;
+    background-position:-561px -36px
+}
+.right_kuaiz{
+    float: right;
+    margin-right: 4px;
+  
+}
+.right_kuaiz a{
+    color: #999999; 
+}
+/* 轮播部分 */
+.qf-banner{
+    height: 383px;
+    width: 390px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+/* banner-inner 是变换的轮播部分 */
+.banner-inner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 383px;
+    width: 9999px;
+    
+}
+.slide{
+    float: left;
+    height: 383px;
+    width: 390px;
+    padding: 15px 20px ;
+    box-sizing: border-box;
+}
+.banner-f a{
+    display: block;
+    height: 150px;
+    width:350px;
+}
+.banner-f a img{
+    height: 100%;
+    width: 100%;
+}
+.banner-s a{
+    display: block;
+    height: 90px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.banner-s h1{
+    text-align: center;
+    height:28px;
+    line-height: 28px;
+    font-size: 18px;
+}
+.banner-s span{
+    height: 20px;
+    line-height: 20px;
+    color: #999999;
+    font-size: 14px;
+}
+.banner-b{
+    width: 350px;
+    height: 100px;
+}
+.banner-b li{
+    float: left;
+}
+.li2{
+    margin:0 25px;
+}
+.banner-b li a{
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.banner-b li a img{
+    height: 100%;
+    width: 100%;
+}
+/* 分页器 */
+.banner-tip{
+    position: absolute;
+    left: 167px;
+    bottom: 7px;
+}
+.banner-tip li {
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    background-color: #d8d8d8;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.banner-tip .active {
+    background-color: #69a88f;
+}
+/* 左右翻页器 */
+.right-btn{
+    position:absolute;
+    top: 160px;
+    right: 0;
+    width: 30px;
+    height: 64px;
+    background: url(../images/index.png) no-repeat;
+    background-position: -198px -145px;
+}
+.left-btn{
+    position:absolute;
+    top: 160px;
+    left: 0;
+    width: 30px;
+    height: 64px;
+    background: url(../images/index.png) no-repeat;
+    background-position: -161px -145px;
+}
